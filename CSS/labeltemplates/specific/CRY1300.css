@@ -1,18 +1,18 @@
 .labelgrid {
   
-  --page-width: 8.5in;
-  --page-height: 11in;
+  --page-width: 11in;
+  --page-height: 8.5in;
 
-  --n-rows: 6;
+  --n-rows: 7;
   --n-cols: 6;
 
-  --label-width: 1.125in;
-  --label-height: 1.75in;
+  --label-width: 1.75in;
+  --label-height: 1.25in;
 
-  --label-pitch-vert: 1.75in;
-  --label-pitch-hor:  1.125in;
+  --label-pitch-vert: 1.125in;
+  --label-pitch-hor:  1.75in;
 
-  --top-margin: 0.25in;
-  --side-margin: 0.28in;
+  --top-margin: 0.28in;
+  --side-margin: 0.25in;
 }
 
