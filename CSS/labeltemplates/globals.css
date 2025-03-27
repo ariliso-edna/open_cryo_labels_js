@@ -47,8 +47,8 @@
     calc(var(--label-pitch-hor) - var(--label-width))
   );
   --row-gap-calc: var(
-    --col-gap,
-    calc(var(--label-pitch-hor) - var(--label-width))
+    --row-gap,
+    calc(var(--label-pitch-vert) - var(--label-height))
   );
 
   --bottom-margin: var(--top-margin);
