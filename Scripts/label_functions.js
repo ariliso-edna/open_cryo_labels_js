@@ -77,6 +77,14 @@ function createLabelElement(
         barcode.setAttribute("jsbarcode-margin", 0);
         barcode.setAttribute("jsbarcode-displayvalue", false);
         break;
+      case "DM":
+        if (!labelName) {return new_label;}
+        var dmx = DATAMatrix(labelName);
+        dmx.style.height = "80%";
+        dmx.style.minHeight = "80%";
+        dmx.style.flexShrink = 0;
+        new_label.appendChild(dmx)
+        break;
       default:
         break;
     }
