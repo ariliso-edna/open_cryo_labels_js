@@ -130,3 +130,8 @@
   display: inline-block;
   margin-inline: 0.2em;
 }
+
+.datamatrix-label {
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);;
+}
