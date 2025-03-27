@@ -131,7 +131,20 @@
   margin-inline: 0.2em;
 }
 
+
 .datamatrix-label {
-  writing-mode: tb-rl;
-  transform: rotate(-180deg);;
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
+  flex-shrink: 2;
+}
+
+.label-DM > svg {
+  flex-shrink: 1;
+  max-width: calc(min(var(--label-width),var(--label-height))*0.9);
+  max-height: calc(min(var(--label-width),var(--label-height))*0.9);
+}
+
+.label-DM.alt-1 {
+  padding: 6%;
+  justify-content: left;
 }

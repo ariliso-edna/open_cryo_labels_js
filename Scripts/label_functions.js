@@ -85,9 +85,6 @@ function createLabelElement(
       case "DM":
         if (!labelName) {return new_label;}
         var dmx = DATAMatrix(labelName);
-        dmx.style.height = "80%";
-        dmx.style.minHeight = "80%";
-        dmx.style.flexShrink = 0;
         dmx.classList.add("label-image", "barcode-2d");
         new_label.appendChild(dmx)
         new_label.classList.add("label-DM", "label-horiz");
