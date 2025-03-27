@@ -77,6 +77,7 @@ function createLabelElement(
         barcode.setAttribute("jsbarcode-margin", 0);
         barcode.setAttribute("jsbarcode-displayvalue", false);
         break;
+      case "CEGA_DEFAULT":
       case "DML":
         var DMtext = document.createElement('div');
         DMtext.classList.add("datamatrix-label");
